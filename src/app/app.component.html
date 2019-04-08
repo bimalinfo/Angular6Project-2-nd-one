@@ -1,5 +1,6 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
+Welcome
+<!-- <div style="text-align:center">
   <h1>
     Welcome to {{ title }}!
   </h1>
@@ -16,6 +17,32 @@
   <li>
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
-</ul>
-
+</ul> -->
+<div class="container">
+<nav class="navbar navbar-default">
+	<ul class="nav navbar-nav">
+		<li>
+			<a routerLinkActive="active" routerLink="list">List</a>
+		</li>
+		<li>
+			<a routerLinkActive="active" routerLink="create">Create</a>
+		</li>
+		<li>
+			<a routerLinkActive="active" routerLink="edit">Edit</a>
+		</li>
+		
+		<li>
+			<a routerLinkActive="active" routerLink="login">Login</a>
+		</li>
+    <li>
+      <a routerLinkActive="active" routerLink="formarray">FormArrayDemo</a>
+    </li>
+    <li>
+      <a routerLinkActive="active" routerLink="first">First-DatasharingDemo</a>
+    </li>
+    <li>
+      <a routerLinkActive="active" routerLink="second">Second-DatasharingDemo</a>
+    </li>
+	</ul>
+</nav>
 <router-outlet></router-outlet>
